@@ -43,7 +43,8 @@ module.exports = function(grunt) {
           'codemirror/js/mode/javascript/javascript.js',
           'codemirror/js/mode/css/css.js',
           'codemirror/js/mode/htmlmixed/htmlmixed.js',
-          'codemirror/js/mode/htmlembedded/htmlembedded.js'
+          'codemirror/js/mode/htmlembedded/htmlembedded.js',
+          'codemirror/js/mode/jinja2/jinja2.js'
           ],
         dest: 'codemirror/js/codemirror.mode.htmlmixed.min.js'
       },
